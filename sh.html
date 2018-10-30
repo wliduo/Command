@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--BootStrap设计的页面支持响应式的 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+        <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Icons --><link rel="shortcut icon" href="/assets/favicon.ico">
+        <style>
+			body {
+				background: #000;
+			}
+			#sh {
+				display: inline-block;
+			}
+        </style>
+	</head>
+	<body>
+	  
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div id="sh"></div>
+    </div>
+    
+    <script src="rexsh.min.js"></script>
+    <!-- 源代码 https://github.com/RexSkz/rex.sh -->
+    <script>
+        var sh = new Rexsh();
+        sh.setEnvs(['PS1=guest@rexskz.info$ ']);
+        sh.addFiles([{
+            type: 'dr--r--r--',
+            user: 'root',
+            size: 0,
+            name: '/bin',
+        }, {
+            type: 'dr--r--r--',
+            user: 'root',
+            size: 0,
+            name: '/etc',
+        }, {
+            type: '-r--r--r--',
+            user: 'root',
+            size: 10,
+            name: '/etc/fstab',
+        }, {
+            type: 'dr--r--r--',
+            user: 'root',
+            size: 0,
+            name: '/usr',
+        }, {
+            type: 'lr--r--r--',
+            user: 'root',
+            size: 0,
+            name: '/usr/bin',
+            alias: '/bin',
+        }, {
+            type: 'dr--r--r--',
+            user: 'root',
+            size: 0,
+            name: '/usr/share',
+        }]);
+        sh.attachTo(document.getElementById('sh'));
+        sh.pushLines(['Initialize OK.', '']);
+    </script>
+</body>
+</html>
