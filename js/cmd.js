@@ -28,35 +28,35 @@ $('.four-oh-four-form').on('submit', function(e){
 	} else if(val === '老鼠' || val === 'mouse') {
 		showMouse();
 	} else if(val === 'wang') {
-		window.location = "https://wang64.cn";
+		window.location = "https://dolyw.com";
 	} else if(val === 'life') {
-		window.location = "https://note.wang64.cn";
+		window.location = "https://note.dolyw.com";
 	} else if(val === 'pic' || val === '图片' || val === 'photo' || val === 'picture') {
-		window.location = "https://char.wang64.cn/pic-to-char";
+		window.location = "https://char.dolyw.com/pic-to-char";
 	} else if(val === 'video' || val === '视频') {
-		window.location = "https://char.wang64.cn/video-to-char";
+		window.location = "https://char.dolyw.com/video-to-char";
 	} else if(val === '01') {
-		window.location = "https://text.wang64.cn/css3-colorful-text-shadow";
+		window.location = "https://text.dolyw.com/css3-colorful-text-shadow";
 	} else if(val === '02') {
-		window.location = "https://text.wang64.cn/css3-loading-text-animation";
+		window.location = "https://text.dolyw.com/css3-loading-text-animation";
 	} else if(val === '03') {
-		window.location = "https://text.wang64.cn/css3-text-shadow-animation";
+		window.location = "https://text.dolyw.com/css3-text-shadow-animation";
 	} else if(val === '04') {
-		window.location = "https://text.wang64.cn/css3-text-water-loading";
+		window.location = "https://text.dolyw.com/css3-text-water-loading";
 	} else if(val === '05') {
-		window.location = "https://text.wang64.cn/html5-3d-letter-text";
+		window.location = "https://text.dolyw.com/html5-3d-letter-text";
 	} else if(val === '06') {
-		window.location = "https://text.wang64.cn/html5-css3-3d-text";
+		window.location = "https://text.dolyw.com/html5-css3-3d-text";
 	} else if(val === '07') {
-		window.location = "https://text.wang64.cn/html5-css3-fire-text";
+		window.location = "https://text.dolyw.com/html5-css3-fire-text";
 	} else if(val === '08') {
-		window.location = "https://text.wang64.cn/html5-shine-text";
+		window.location = "https://text.dolyw.com/html5-shine-text";
 	} else if(val === '09') {
-		window.location = "https://text.wang64.cn/html5-swing-text";
+		window.location = "https://text.dolyw.com/html5-swing-text";
 	} else if(val === '10') {
-		window.location = "https://text.wang64.cn/html5-text-pixel";
+		window.location = "https://text.dolyw.com/html5-text-pixel";
 	} else if(val === 'sh' || val === 'linux' || val === '命令') {
-		window.location = "https://cmd.wang64.cn/sh";
+		window.location = "https://cmd.dolyw.com/sh";
 	} else {
 		resetForm();
 	}
@@ -98,10 +98,10 @@ function showKittens(){
 
 	setTimeout(function(){
 		var gif;
-		$('.terminal').append('<img class="kitten-gif" src="https://wang926454.gitee.io/reader/Image/201810/normal/30005.gif">');
+		$('.terminal').append('<img class="kitten-gif" src="https://dolyw.gitee.io/reader/Image/201810/normal/30005.gif">');
 		resetForm('kitten');
 	}, (lines.length * 100) + 1000);
-	// window.location="https://wang64.cn";
+	// window.location="https://dolyw.com";
 }
 
 function showMouse(){
@@ -138,10 +138,10 @@ function showMouse(){
 
 	setTimeout(function(){
 		var gif;
-		$('.terminal').append('<img class="kitten-gif" src="https://wang926454.gitee.io/reader/Image/201810/normal/30010.gif">');
+		$('.terminal').append('<img class="kitten-gif" src="https://dolyw.gitee.io/reader/Image/201810/normal/30010.gif">');
 		resetForm('mouse');
 	}, (lines.length * 100) + 1000);
-	// window.location="https://wang64.cn";
+	// window.location="https://dolyw.com";
 }
 
 function showBeast(){
@@ -184,7 +184,7 @@ function showBeast(){
 
 	setTimeout(function(){
 		var gif;
-		$('.terminal').append('<img class="kitten-gif" src="https://wang926454.gitee.io/reader/Image/201810/normal/30015.gif">');
+		$('.terminal').append('<img class="kitten-gif" src="https://dolyw.gitee.io/reader/Image/201810/normal/30015.gif">');
 		resetForm('beast');
 	}, (lines.length * 100) + 1000);
 }
@@ -247,7 +247,7 @@ function showGoddess(){
 
 	setTimeout(function(){
 		var gif;
-		$('.terminal').append('<img class="kitten-gif" src="https://wang926454.gitee.io/reader/Image/201810/normal/30010.gif">');
+		$('.terminal').append('<img class="kitten-gif" src="https://dolyw.gitee.io/reader/Image/201810/normal/30010.gif">');
 		resetForm('goddess');
 	}, (lines.length * 100) + 1000);
 }
